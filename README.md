@@ -1,6 +1,7 @@
 # About
 
-Hi! My name is Itay and I'm 11 years old. I'm learning Python, and I made this game.
+Hi! My name is Itay and I'm 11 years old. I'm learning Python, and I made this software.
+This software is a simple calculator that I made.
 
 ## Installation
 
