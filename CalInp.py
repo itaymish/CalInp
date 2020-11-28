@@ -2,10 +2,14 @@ try:
 	from tkinter import *
 	import tkinter as tk
 	import tkinter
+	from tkinter import messagebox
 except ImportError:
 	from Tkinter import *
+	from Tkinter import messagebox
 
 def code():
+	global cct
+
 	root = Tk()
 	root.title("CalInp")
 
@@ -17,9 +21,9 @@ def code():
 
 	oper = Entry(root, width=30)
 	oper.grid()
-
+       
 	snum = Entry(root, width=30)
-	snum.grid()
+	snum.grid()                                                 
 
 	def calcul():
 		global rslt
@@ -38,12 +42,11 @@ def code():
 		elif oval == '/':
 			rval = float(fval) / float(sval)
 
-		rslt = Label(root, text=rval)
-		rslt.grid(row=6)
+		messagebox.showinfo("CalInp", "The answer is...\n" + str(rval))
+
+		rval = 0
 
 	def clear():
-		hlp.destroy()
-
 		fnum.delete(0, END)
 		fnum.insert(0, "")
 
