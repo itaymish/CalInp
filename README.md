@@ -15,6 +15,6 @@ When you use the app for the first time, you'll see a guide that tells you what 
 
 If there's a bug or an issue, please report it.
 
-## Itch.io
+## Website
 
-Itch.io website - coming soon!
+An official website - coming soon!
